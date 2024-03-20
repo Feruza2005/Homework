@@ -1,0 +1,96 @@
+#include <iostream>
+#include <math.h>
+using std::cout;
+using std::cin;
+using std::endl;
+
+int main()
+{
+  cout << "PROBLEM 1\n";
+  
+  int num1 = 0;
+  int num2 = 0;
+  cout << "Enter an integer number: " ;
+  cin >> num1;
+  cout << "Enter an integer number again: " ;
+  cin >> num2;
+  int avg = (num1+num2)/2;
+  int product = num1*num2;
+  cout << "The result of average is equal to "<< avg<< endl;
+  cout << "The result of product is equal to "<<product<< endl;
+  
+   
+  cout << "PROBLEM 2\n";
+  
+  float base = 0;
+  float height = 0;
+  cout << "Enter the length of the base: " ;
+  cin >> base;
+  cout << "Enter the length of the height: " ;
+  cin >> height;
+  float area  = base*height*0.5;
+ 
+  cout <<"The area of triangle is "<< area<< endl;
+  
+  
+  cout << "PROBLEM 3\n";
+  
+  float temp = 0;
+  cout << "The temperature in Celsius: " ;
+  cin >> temp;
+ 
+  float fahrenheit  = temp*1.8+32;
+ 
+  cout <<"The temperature in Farenheit is equal to "<< fahrenheit << endl;
+  
+  
+  cout << "PROBLEM 4\n";
+  
+  int a = 0;
+  int b = 0;
+  int c = 0;
+ 
+  cout << "Enter a number: " ;
+  cin >> a;
+  cout << "Enter a number: " ;
+  cin >> b;
+  cout << "Enter a number: " ;
+  cin >> c;
+ 
+  int d = pow(a,b);
+  int e = pow (d,c);
+  cout << e << endl;
+  
+  
+  cout << "PROBLEM 5\n";
+  int N = 0;
+
+  cout << "Enter a number: ";
+  cin >> N;
+
+  int P1 = pow (N, 1);
+  int P2 = pow (N, 2);
+  int P3 = pow (N, 3);
+  int P4 = pow (N, 4);
+  int P5 = pow (N, 5);
+  int P6 = pow (N, 6);
+  int P7 = pow (N, 7);
+  int P8 = pow (N, 8);
+  int P9 = pow (N, 9);
+  int P10 = pow (N, 10);
+
+  
+  cout << N <<"ˆ1=" << P1<< endl;
+  cout << N <<"ˆ2=" << P2<< endl;
+  cout << N <<"ˆ3=" << P3<< endl;
+  cout << N <<"ˆ4=" << P4<< endl;
+  cout << N <<"ˆ5=" << P5<< endl;
+  cout << N <<"ˆ6=" << P6<< endl;
+  cout << N <<"ˆ7=" << P7<< endl;
+  cout << N <<"ˆ8=" << P8<< endl;
+  cout << N <<"ˆ9=" << P9<< endl;
+  cout << N <<"ˆ10=" << P10<< endl;
+  
+  
+  
+}
